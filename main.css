@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #007588;
+  color: #e7ecef;
   text-decoration: none;
 }
 
@@ -52,6 +52,10 @@ header {
   margin: 0 auto;
 }
 
+.profile__latin {
+  font-style: italic;
+}
+
 .profile__code {
   margin-top: 20px;
 }
@@ -74,6 +78,10 @@ header {
 
 .site-footer__copyright {
   font-size: 0.8em;
+}
+
+.profile__code--bold {
+  font-weight: 700;
 }
 
 @media screen and (min-width: 600px) {
