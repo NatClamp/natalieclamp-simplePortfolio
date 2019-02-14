@@ -34,10 +34,10 @@ a:hover {
 }
 
 .profile a {
-  text-shadow: 2px 2px #003340;
   cursor: pointer;
-  color: #fff;
+  color: #003340;
   transition: 0.25s ease-in-out;
+  border-bottom: 2px solid #fff;
 }
 
 .profile a:hover {
