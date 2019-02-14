@@ -14,12 +14,40 @@ body {
 }
 
 a {
-  color: #e7ecef;
   text-decoration: none;
+  cursor: pointer;
+  color: #003340;
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  overflow: visible;
+}
+
+a:hover {
+  -webkit-text-shadow: 0 0 10px #fd6660;
+  -moz-text-shadow: 0 0 10px #fd6660;
+  -ms-text-shadow: 0 0 10px #fd6660;
+  -o-text-shadow: 0 0 10px #fd6660;
+  text-shadow: 0 0 10px #fd6660;
+}
+
+.profile a {
+  text-shadow: 2px 2px #003340;
+  cursor: pointer;
+  color: #e7ecef;
+  transition: 0.25s ease-in-out;
+}
+
+.profile a:hover {
+  color: #003340;
+  text-shadow: none;
+  transition: 0.25s ease-in-out;
 }
 
 header {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .container {
@@ -40,10 +68,16 @@ header {
   display: inline-block;
   position: relative;
   line-height: 1em;
+  transition: 0.25s;
+}
+
+.header__headline:hover {
+  transform: rotateZ(-0.5deg) translateX(0.5em);
+  transition: 0.25s;
 }
 
 .profile {
-  background-color: #fd6660;
+  background-color: #fd736e;
   width: 100%;
   padding: 70px 50px;
 }
@@ -61,11 +95,11 @@ header {
 }
 
 .site-footer {
-  padding: 40px 0;
+  padding: 10px 0;
 }
 
 .social-nav {
-  margin-bottom: 30px;
+  margin: 10px 0;
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -89,7 +123,7 @@ header {
     font-size: 4em;
   }
   .profile {
-    padding: 100px;
+    padding: 60px 100px;
   }
   .profile__container {
     max-width: 700px;
