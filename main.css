@@ -36,7 +36,7 @@ a:hover {
 .profile a {
   text-shadow: 2px 2px #003340;
   cursor: pointer;
-  color: #e7ecef;
+  color: #fff;
   transition: 0.25s ease-in-out;
 }
 
