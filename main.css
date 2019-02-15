@@ -21,7 +21,7 @@ a {
   -moz-transition: 0.25s ease-in-out;
   -ms-transition: 0.25s ease-in-out;
   -o-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out text-shadow;
   overflow: visible;
 }
 
@@ -36,14 +36,7 @@ a:hover {
 .profile a {
   cursor: pointer;
   color: #003340;
-  transition: 0.25s ease-in-out;
   border-bottom: 2px solid #fff;
-}
-
-.profile a:hover {
-  color: #003340;
-  text-shadow: none;
-  transition: 0.25s ease-in-out;
 }
 
 header {
@@ -68,12 +61,11 @@ header {
   display: inline-block;
   position: relative;
   line-height: 1em;
-  transition: 0.25s;
+  transition: 0.25s ease-in-out transform;
 }
 
 .header__headline:hover {
   transform: rotateZ(-0.5deg) translateX(0.5em);
-  transition: 0.25s;
 }
 
 .profile {
@@ -83,7 +75,7 @@ header {
 }
 
 .profile__container {
-  margin: 0 auto;
+  padding: 0;
 }
 
 .profile__latin {
